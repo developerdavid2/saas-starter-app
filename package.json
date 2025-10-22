@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "dev:webhook": "ngrok http --url=strung-bernardo-duodecastyle.ngrok-free.dev 3000"
   },
   "dependencies": {
     "@clerk/nextjs": "^6.33.7",

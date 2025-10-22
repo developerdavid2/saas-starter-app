@@ -6,7 +6,7 @@ const isPublicRoute = createRouteMatcher([
   "/",
   "/sign-in(.*)",
   "/sign-up(.*)",
-  "/api/webhook/register",
+  "/api/webhooks(.*)", // Changed to catch all webhook routes
 ]);
 
 // Define admin-only routes
